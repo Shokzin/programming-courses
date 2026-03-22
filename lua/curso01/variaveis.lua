@@ -17,6 +17,7 @@ soma = 10 + 5
 print("Soma:",soma)
 
 --
+
 num1 = 10
 num2 = 5
 subtracao = num1 - num2
