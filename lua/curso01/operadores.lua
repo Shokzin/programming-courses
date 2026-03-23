@@ -28,12 +28,12 @@ print("------------------------------")
 --[[
 lógicos
 and or not nil=false
-and -> retorna o primeiro operando se ele for falso, caso contrário retorna o segundo operando
-or -> retorna o primeiro operando se ele for verdadeiro, caso contrário retorna o segundo operando
+and -> ambos operandos devem ser verdadeiros para retornar verdadeiro, caso contrário retorna falso
+or -> retorna o primeiro operando se ele for verdadeiro, caso contrário retorna false
 not -> retorna true se o operando for falso e vice-versa
 ]]
 
-print(10<5 and 2) -- 10<5 é falso, então retorna o segundo operando
+print(10<5 and 2) -- 10<5 é falso, então retorna false
 print(10>5 or 2) -- 10>5 é verdadeiro, então retorna o primeiro operando
 
 --[[
